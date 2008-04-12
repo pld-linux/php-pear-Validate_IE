@@ -34,7 +34,7 @@ Package contains validation for Irish credentials:
 In PEAR status of this package is: %{_status}.
 
 %description -l pl.UTF-8
-Pakiet do sprawdzania poprawności dla Argentyny danych takich jak:
+Pakiet do sprawdzania poprawności dla Irlandii danych takich jak:
  - kod pocztowy (plotka),
  - numer paszportu,
  - numer telefonu,

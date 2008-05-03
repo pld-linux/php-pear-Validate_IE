@@ -1,17 +1,17 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Validate
 %define		_subclass	IE
-%define		_status		beta
+%define		_status		stable
 %define		_pearname	Validate_IE
 Summary:	%{_pearname} - Validation class for Ireland
 Summary(pl.UTF-8):	%{_pearname} - klasa sprawdzająca poprawność dla Irlandii
 Name:		php-pear-%{_pearname}
-Version:	0.2.0
-Release:	2
+Version:	1.0.1
+Release:	1
 License:	New BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	3da11d4d193bf6f3619c77c1ec75c49e
+# Source0-md5:	4c0aad0ee0a8ce5435af047e776dca87
 URL:		http://pear.php.net/package/Validate_IE/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11

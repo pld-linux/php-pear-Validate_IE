@@ -1,19 +1,19 @@
+%define		status		stable
+%define		pearname	Validate_IE
 %include	/usr/lib/rpm/macros.php
-%define		_status		stable
-%define		_pearname	Validate_IE
-Summary:	%{_pearname} - Validation class for Ireland
-Summary(pl.UTF-8):	%{_pearname} - klasa sprawdzająca poprawność dla Irlandii
-Name:		php-pear-%{_pearname}
+Summary:	%{pearname} - Validation class for Ireland
+Summary(pl.UTF-8):	%{pearname} - klasa sprawdzająca poprawność dla Irlandii
+Name:		php-pear-%{pearname}
 Version:	1.0.3
 Release:	1
 License:	New BSD
 Group:		Development/Languages/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+Source0:	http://pear.php.net/get/%{pearname}-%{version}.tgz
 # Source0-md5:	62acdd4d838cb9b68942bcb3510b42e7
 URL:		http://pear.php.net/package/Validate_IE/
 BuildRequires:	php-pear-PEAR >= 1:1.4.0-0.b1
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
-BuildRequires:	rpmbuild(macros) >= 1.300
+BuildRequires:	rpmbuild(macros) >= 1.580
 Requires:	php-pear
 Requires:	php-pear-Validate_Finance >= 0.5.4
 Obsoletes:	php-pear-Validate_IE-tests
@@ -32,7 +32,7 @@ Package contains validation for Irish credentials:
  - PPSN / SSN Numbers
  - Swift numbers
 
-In PEAR status of this package is: %{_status}.
+In PEAR status of this package is: %{status}.
 
 %description -l pl.UTF-8
 Pakiet do sprawdzania poprawności dla Irlandii danych takich jak:
@@ -46,7 +46,7 @@ Pakiet do sprawdzania poprawności dla Irlandii danych takich jak:
  - numery PPSN / SSN,
  - numery swift
 
-Ta klasa ma w PEAR status: %{_status}.
+Ta klasa ma w PEAR status: %{status}.
 
 %prep
 %pear_package_setup

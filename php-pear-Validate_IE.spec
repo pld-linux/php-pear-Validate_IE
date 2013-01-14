@@ -5,7 +5,7 @@ Summary:	%{pearname} - Validation class for Ireland
 Summary(pl.UTF-8):	%{pearname} - klasa sprawdzająca poprawność dla Irlandii
 Name:		php-pear-%{pearname}
 Version:	1.0.3
-Release:	1
+Release:	2
 License:	New BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{pearname}-%{version}.tgz
@@ -64,4 +64,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc install.log
 %{php_pear_dir}/.registry/*.reg
 %{php_pear_dir}/Validate/IE.php
-%{php_pear_dir}/data/Validate_IE/data
+%{php_pear_dir}/data/Validate_IE

@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Validate_IE
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Validation class for Ireland
 Summary(pl.UTF-8):	%{pearname} - klasa sprawdzająca poprawność dla Irlandii
 Name:		php-pear-%{pearname}
